@@ -1,5 +1,6 @@
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
+import Counter from '../../features/counter/Counter';
 import * as S from './Styled';
 
 const styleButtons = {
@@ -8,7 +9,7 @@ const styleButtons = {
   color: 'white'
 };
 
-const Home = () => (
+const Assign = () => (
   <div>
     <S.Wrapper>
       <S.ButtonWrapper>
@@ -33,7 +34,8 @@ const Home = () => (
         </Button>
       </S.ButtonWrapper>
     </S.Wrapper>
+    <Counter />
   </div>
 );
 
-export default Home;
+export default Assign;
